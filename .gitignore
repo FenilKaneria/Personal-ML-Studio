@@ -1,0 +1,81 @@
+# Python byte-compiled / optimised / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Frontend dependencies and build
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vercel/
+node_modules/
+.npm/
+
+# Environment and secrets
+secrets.toml
+.secrets.toml
+.env
+.env.*
+*.env
+*.local
+
+# Logs and databases
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.sqlite3
+*.db
+
+# Model artifacts and large binaries
+*.pkl
+*.joblib
+catboost_info/
+
+# Testing and coverage
+tests/
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+
+# IDE and editor settings
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Operating System artifacts
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+.DS_Store
+Desktop.ini
+$RECYCLE.BIN/
