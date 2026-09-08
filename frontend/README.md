@@ -1,6 +1,6 @@
-# SmartML Studio — React workspace
+# Personal ML Studio — React workspace
 
-React single-page front end for SmartML Studio, over a FastAPI backend that wraps the
+React single-page front end for Personal ML Studio, over a FastAPI backend that wraps the
 existing `src/` package. The eleven-step pipeline is unchanged; the interface is not.
 
 ## Running

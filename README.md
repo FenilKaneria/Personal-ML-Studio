@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🧠 SmartML Studio
+# 🧠 Personal ML Studio
 
 **An intelligent, end-to-end machine learning platform for structured tabular data**
 
-Upload a dataset and SmartML Studio walks you through the whole workflow — profiling,
+Upload a dataset and Personal ML Studio walks you through the whole workflow — profiling,
 visualisation, preprocessing, feature engineering, model selection, training, ensembling
 and explainability — recommending the next action at every step with a **confidence score**
 and a **plain-English reason**. Nothing runs automatically; you always make the call.
@@ -14,25 +14,23 @@ and a **plain-English reason**. Nothing runs automatically; you always make the 
 
 ## Table of Contents
 
-- [Why SmartML Studio](#why-smartml-studio)
+- [Why Personal ML Studio](#why-personal-ml-studio)
 - [Key Features](#key-features)
 - [Tech Stack](#tech-stack)
 - [The 11-Step Workflow](#the-11-step-workflow)
 - [Getting Started](#getting-started)
 - [Optional: AI-Written Explanations](#optional-ai-written-explanations)
 - [Project Structure](#project-structure)
-- [Testing](#testing)
-- [Roadmap](#roadmap)
 
 ---
 
-## Why SmartML Studio
+## Why Personal ML Studio
 
 Most AutoML tools are a black box: you hand over a CSV and get a model back with no
 insight into *why* those choices were made. Notebooks are the opposite — total control,
 but you rebuild the same boilerplate every single time.
 
-SmartML Studio sits in between. Every module is an **advisor**, not an autopilot:
+Personal ML Studio sits in between. Every module is an **advisor**, not an autopilot:
 
 > *"I recommend **median imputation** for `age` — ⭐⭐⭐⭐ (87%). The column is 12% missing
 > and right-skewed (skew = 1.8), so the mean would be pulled toward the tail."*
@@ -163,7 +161,7 @@ Any OpenAI-compatible provider works. Defaults live in `config/settings.py`; the
 ## Project Structure
 
 ```
-smartml-studio/
+Personal-ML-Studio/
 ├── run_dev.py                  # Starts the API and the web app together
 ├── backend/
 │   ├── main.py                 # FastAPI application
@@ -190,7 +188,6 @@ smartml-studio/
 │   ├── evaluation/             # Comparison metrics, feature importance
 │   ├── reporting/              # Markdown report builder
 │   └── llm/                    # Optional narration layer
-└── tests/                      # pytest suite
 ```
 
 ---
