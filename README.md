@@ -8,24 +8,6 @@ Upload a dataset and SmartML Studio walks you through the whole workflow — pro
 visualisation, preprocessing, feature engineering, model selection, training, ensembling
 and explainability — recommending the next action at every step with a **confidence score**
 and a **plain-English reason**. Nothing runs automatically; you always make the call.
-
-<br>
-
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-![XGBoost](https://img.shields.io/badge/XGBoost-1B7EC1?style=for-the-badge)
-![LightGBM](https://img.shields.io/badge/LightGBM-7CB342?style=for-the-badge)
-![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge&logoColor=black)
-![SHAP](https://img.shields.io/badge/SHAP-1F77B4?style=for-the-badge)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-
 </div>
 
 ---
@@ -212,34 +194,3 @@ smartml-studio/
 ```
 
 ---
-
-## Testing
-
-```bash
-pytest                          # run everything
-pytest -v                       # verbose
-pytest tests/test_custom_svm.py # a single suite
-```
-
-The suite covers the custom SVM and kNN implementations, all three advisors, the
-profiler, the preprocessing pipeline, feature engineering, the hybrid ensemble, and the
-privacy guarantee on the optional LLM layer.
-
----
-
-## Roadmap
-
-- [ ] Time-series and forecasting support
-- [ ] Hyperparameter tuning UI (Optuna)
-- [ ] Model registry with experiment versioning
-- [ ] Docker image and one-click cloud deploy
-
-
-<div align="center">
-<br>
-
-Built by [**FenilKaneria**](https://github.com/FenilKaneria)
-
-⭐ Star this repo if you find it useful
-
-</div>
